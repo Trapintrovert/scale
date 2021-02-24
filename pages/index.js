@@ -93,7 +93,7 @@ export default function Home() {
   return (
     <div className="main-page-wrapper">
       <Head>
-        <title>Create Next App</title>
+        <title>Scale - Peer 2 Peer Telegram Bot for Crypto Trading</title>
         <link rel="icon" href="/favicon.ico" />
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
       </Head>

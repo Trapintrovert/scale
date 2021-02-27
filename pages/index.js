@@ -256,7 +256,7 @@ export default function Home() {
                       <h6>You don’t need to download another App!</h6>
                       <p>Telegram is fast becoming a go-to marketplace for cryptocurrency exchanges. The bot is built modelling your day-to-day conversations during a P2P crypto transaction on Telegram.</p>
                       <ul className="button-group">
-                        <li><a href="#">Get Started</a></li>
+                        <li><a href="#">Start trading</a></li>
                       </ul>
                     </div> 
                   </div>

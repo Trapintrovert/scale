@@ -190,9 +190,7 @@ export default function Home() {
 					</div>
 				</div> 
 
-			</div>
-      
-      <div className="our-features-one" id="features">
+        <div className="our-features-one" id="features">
           <div className="container">
             <div className="theme-title">
               <h2>Fast Rising <span>Peer 2 Peer</span> <br/>Trading Bot</h2>
@@ -209,112 +207,108 @@ export default function Home() {
         </div> 
 
         <div className="our-feature-two" id="services">
-        <div className="container">
-          <div className="row single-block">
-            <div className="col-lg-6">
-              <div className="text">
-                <div className="number">01</div>
-                <h2 className="title"><span>Safety First,</span> Always.</h2>
-                <p>Scale’s primary goal is to ensure transactions are done in a safe and secure environment; hence, why we built it on a blockchain platform.</p>
+          <div className="container">
+            <div className="row single-block">
+              <div className="col-lg-6">
+                <div className="text">
+                  <div className="number">01</div>
+                  <h2 className="title"><span>Safety First,</span> Always.</h2>
+                  <p>Scale’s primary goal is to ensure transactions are done in a safe and secure environment; hence, why we built it on a blockchain platform.</p>
+                </div> 
               </div> 
-            </div> 
-            <div className="col-lg-6 img-box"><div><img src="/encrypted.png" alt=""/></div></div>
-          </div>
-
-          <div className="row single-block">
-            <div className="col-lg-6 order-lg-last">
-              <div className="text">
-                <div className="number">02</div>
-                <h2 className="title"><span>Trust</span> is a Strong Commodity.</h2>
-                <p>To use Scale means you do not have to be familiar with strangers before earning their trusts. It is what Scale is built upon. Trust is out of your worries as you go about your crypto business.</p>
-              </div> 
-            </div> 
-            <div className="col-lg-6 order-lg-first img-box"><div><img src="/trust.png" alt=""/></div></div>
-          </div>
-
-          <div className="row single-block">
-            <div className="col-lg-6">
-              <div className="text">
-                <div className="number">03</div>
-                <h2 className="title"><span>Speed</span> is Important to Scale.</h2>
-                <p>We are dedicated to helping you scale as a crypto exchanger; this is why we have built a system that speeds up transaction processes with our seamless bot interface.</p>
-              </div> 
-            </div> 
-            <div className="col-lg-6 img-box"><div><img src="/speed.png" alt=""/></div></div>
-          </div> 
-        </div> 
-      </div> 
-
-    
-      <div className="apps-overview color-one" id="apps-review">
-					<div className="overlay-bg" style={{backgroundImage: `url('/bg2.png')`}}>
-						<div className="container">
-							<div className="inner-wrapper">
-								<img src="/s8.png" alt="" className="s8-mockup" data-aos="fade-down" data-aos-duration="2500"/>
-								<img src="/x.png" alt="" className="x-mockup" data-aos="fade-up" data-aos-duration="2500"/>
-								<div className="row">
-									<div className="col-lg-5 offset-lg-7">
-										<div className="text">
-											<h2>Telegram Escrow Bot for Faster Transaction.</h2>
-											<h6>You don’t need to download another App!</h6>
-											<p>Telegram is fast becoming a go-to marketplace for cryptocurrency exchanges. The bot is built modelling your day-to-day conversations during a P2P crypto transaction on Telegram.</p>
-											<ul className="button-group">
-												<li><a href="#">Get Started</a></li>
-											</ul>
-										</div> 
-									</div>
-								</div>
-							</div> 
-						</div>
-					</div> 
-				</div> 
-
-    
-
-        <div className="theme-counter">
-        <div className="container">
-          <div className="bg-image">
-            <div className="row theme-title">
-              <div className="col-lg-6 order-lg-last">
-                <h2><span>Fastest</span> Rising Crypto Escrow Bot</h2>
-              </div>
-              <div className="col-lg-6 order-lg-first">
-                <p>Scale is the first of its kind. A P2P chatbot that helps bring balance to the imbalances in the cryptocurrency P2P market.</p>
-              </div>
+              <div className="col-lg-6 img-box"><div><img src="/encrypted.png" alt=""/></div></div>
             </div>
 
-            <div className="counter-wrapper">
-              <div className="row">
-                <div className="col-sm-4">
-                  <h2 className="number"><span className="timer"><CountUp end={12} /></span>K</h2>
-                  <p>Transactions</p>
-                </div>
-                <div className="col-sm-4">
-                  <h2 className="number"><span className="timer"><CountUp end={150} /></span></h2>
-                  <p>Users</p>
-                </div>
-                <div className="col-sm-4">
-                  <h2 className="number"><span className="timer"><CountUp end={4} /></span></h2>
-                  <p>Coins</p>
-                </div>
-              </div>
+            <div className="row single-block">
+              <div className="col-lg-6 order-lg-last">
+                <div className="text">
+                  <div className="number">02</div>
+                  <h2 className="title"><span>Trust</span> is a Strong Commodity.</h2>
+                  <p>To use Scale means you do not have to be familiar with strangers before earning their trusts. It is what Scale is built upon. Trust is out of your worries as you go about your crypto business.</p>
+                </div> 
+              </div> 
+              <div className="col-lg-6 order-lg-first img-box"><div><img src="/trust.png" alt=""/></div></div>
+            </div>
+
+            <div className="row single-block">
+              <div className="col-lg-6">
+                <div className="text">
+                  <div className="number">03</div>
+                  <h2 className="title"><span>Speed</span> is Important to Scale.</h2>
+                  <p>We are dedicated to helping you scale as a crypto exchanger; this is why we have built a system that speeds up transaction processes with our seamless bot interface.</p>
+                </div> 
+              </div> 
+              <div className="col-lg-6 img-box"><div><img src="/speed.png" alt=""/></div></div>
             </div> 
           </div> 
         </div> 
-      </div> 
 
+        <div className="apps-overview color-one" id="apps-review">
+          <div className="overlay-bg" style={{backgroundImage: `url('/bg2.png')`}}>
+            <div className="container">
+              <div className="inner-wrapper">
+                <img src="/s8.png" alt="" className="s8-mockup" data-aos="fade-down" data-aos-duration="2500"/>
+                <img src="/x.png" alt="" className="x-mockup" data-aos="fade-up" data-aos-duration="2500"/>
+                <div className="row">
+                  <div className="col-lg-5 offset-lg-7">
+                    <div className="text">
+                      <h2>Telegram Escrow Bot for Faster Transaction.</h2>
+                      <h6>You don’t need to download another App!</h6>
+                      <p>Telegram is fast becoming a go-to marketplace for cryptocurrency exchanges. The bot is built modelling your day-to-day conversations during a P2P crypto transaction on Telegram.</p>
+                      <ul className="button-group">
+                        <li><a href="#">Get Started</a></li>
+                      </ul>
+                    </div> 
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div> 
+        </div> 
 
-      <div className="our-work-progress bg-color" id="progress">
-					<div className="main-wrapper clearfix">
-						<div className="section-title-wrapper clearfix">
-							<div className="theme-title">
-								<div className="upper-heading">Process</div>
-								<h2>How <span>Scale </span>works</h2>
-								<p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
-							</div>
-						</div> 
-						<div className="progress-slider-wrapper">
-							<div className="progress-slider">
+        <div className="theme-counter">
+          <div className="container">
+            <div className="bg-image">
+              <div className="row theme-title">
+                <div className="col-lg-6 order-lg-last">
+                  <h2><span>Fastest</span> Rising Crypto Escrow Bot</h2>
+                </div>
+                <div className="col-lg-6 order-lg-first">
+                  <p>Scale is the first of its kind. A P2P chatbot that helps bring balance to the imbalances in the cryptocurrency P2P market.</p>
+                </div>
+              </div>
+
+              <div className="counter-wrapper">
+                <div className="row">
+                  <div className="col-sm-4">
+                    <h2 className="number"><span className="timer"><CountUp end={12} /></span>K</h2>
+                    <p>Transactions</p>
+                  </div>
+                  <div className="col-sm-4">
+                    <h2 className="number"><span className="timer"><CountUp end={150} /></span></h2>
+                    <p>Users</p>
+                  </div>
+                  <div className="col-sm-4">
+                    <h2 className="number"><span className="timer"><CountUp end={4} /></span></h2>
+                    <p>Coins</p>
+                  </div>
+                </div>
+              </div> 
+            </div> 
+          </div> 
+        </div> 
+
+        <div className="our-work-progress bg-color" id="progress">
+          <div className="main-wrapper clearfix">
+            <div className="section-title-wrapper clearfix">
+              <div className="theme-title">
+                <div className="upper-heading">Process</div>
+                <h2>How <span>Scale </span>works</h2>
+                <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
+              </div>
+            </div> 
+            <div className="progress-slider-wrapper">
+              <div className="progress-slider">
                 <OwlCarousel {...option2}>
                   <div className="item">
                   <div className="inner-block">
@@ -366,10 +360,10 @@ export default function Home() {
                 </div>
                 </OwlCarousel>
               </div> 
-						</div> 
-					</div> 
+            </div> 
+          </div> 
         </div> 
-        
+     
         <div className="partner-section">
           <div className="container">
             <div className="partner-slider">
@@ -384,36 +378,39 @@ export default function Home() {
         </div>
 
         <footer className="theme-footer">
-					<div className="container">
-						<div className="inner-wrapper">
-							<div className="top-footer-data-wrapper">
-								<div className="row">
-									<div className="col-lg-12 col-sm-6 footer-logo">
-										<div className="theme-title text-center">
-											<h2>Contact<span> Us</span></h2>
-										</div>
-										<a href="#" className="email text-center">info@scale.ai</a>
-										<a href="#" className="email text-center">+2348023982011</a>
-										
-									</div>
-									
-								</div>
-							</div> 
+          <div className="container">
+            <div className="inner-wrapper">
+              <div className="top-footer-data-wrapper">
+                <div className="row">
+                  <div className="col-lg-12 col-sm-6 footer-logo">
+                    <div className="theme-title text-center">
+                      <h2>Contact<span> Us</span></h2>
+                    </div>
+                    <a href="#" className="email text-center">info@scale.ai</a>
+                    <a href="#" className="email text-center">+2348023982011</a>
+                    
+                  </div>
+                  
+                </div>
+              </div> 
 
-							<div className="bottom-footer clearfix">
-								<p className="copyright">&copy; 2021 <a href="#">Scale</a> All Right Reserved</p>
-								<ul>
-									{/* <li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-									<li><a href="https://twitter.com/SurtiiHQ"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="https://www.instagram.com/p2pbyscale/"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
-								</ul>
-							</div> 
-						</div>
-					</div>
-				</footer>
+              <div className="bottom-footer clearfix">
+                <p className="copyright">&copy; 2021 <a href="#">Scale</a> All Right Reserved</p>
+                <ul>
+                  {/* <li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                  <li><a href="https://twitter.com/SurtiiHQ"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.instagram.com/p2pbyscale/"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+              </div> 
+            </div>
+          </div>
+        </footer>
+			
 
+      </div>
+      
 
-
+ 
     </div>
 
   )

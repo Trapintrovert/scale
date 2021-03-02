@@ -20,7 +20,6 @@ const DASHCoinPrice = () => {
             // States
             setDASHCoinPrices(usd)
             setBaseCurrency(res.data.data.base)
-            console.log('DASHcoin' + usd)
         } catch (err) {
             console.log(err)
         }
@@ -31,7 +30,7 @@ const DASHCoinPrice = () => {
             ngn = parseFloat(ngn.replace(/,/g,''))
             ngn = ngn.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')
             setNaira(ngn)
-            console.log('DASHcoin ' + ngn)
+
         } catch (err) {
             console.log(err)
         }

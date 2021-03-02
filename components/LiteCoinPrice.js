@@ -16,7 +16,6 @@ const LiteCoinPrice = () => {
             // States
             setLiteCoinPrices(usd)
             setBaseCurrency(res.data.data.base)
-            console.log('Litecoin' + usd)
         } catch (err) {
             console.log(err)
         }
@@ -27,7 +26,6 @@ const LiteCoinPrice = () => {
             ngn = parseFloat(ngn.replace(/,/g,''))
             ngn = ngn.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')
             setNaira(ngn)
-            console.log('Litecoin ' + ngn)
         } catch (err) {
             console.log(err)
         }

@@ -17,7 +17,6 @@ const BtcPrice = () => {
             // States
             setPrice(usd)
             setBaseCurrency(res.data.data.base)
-            console.log(usd)
         } catch (err) {
             console.log(err)
         }
@@ -28,7 +27,6 @@ const BtcPrice = () => {
             ngn = parseFloat(ngn.replace(/,/g,''))
             ngn = ngn.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')
             setNaira(ngn)
-            console.log(ngn)
         } catch (err) {
             console.log(err)
         }

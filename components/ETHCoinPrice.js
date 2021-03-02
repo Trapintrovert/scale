@@ -17,7 +17,6 @@ const ETHCoinPrice = () => {
             // States
             setETHCoinPrices(usd)
             setBaseCurrency(res.data.data.base)
-            console.log('ETHcoin' + usd)
         } catch (err) {
             console.log(err)
         }
@@ -28,7 +27,6 @@ const ETHCoinPrice = () => {
             ngn = parseFloat(ngn.replace(/,/g,''))
             ngn = ngn.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')
             setNaira(ngn)
-            console.log('ETHcoin ' + ngn)
         } catch (err) {
             console.log(err)
         }

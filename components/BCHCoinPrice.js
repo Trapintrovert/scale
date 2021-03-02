@@ -18,7 +18,6 @@ const BCHCoinPrice = () => {
             // States
             setBCHCoinPrices(usd)
             setBaseCurrency(res.data.data.base)
-            console.log('BCHcoin' + usd)
         } catch (err) {
             console.log(err)
         }
@@ -29,7 +28,6 @@ const BCHCoinPrice = () => {
             ngn = parseFloat(ngn.replace(/,/g,''))
             ngn = ngn.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')
             setNaira(ngn)
-            console.log('BCHcoin ' + ngn)
         } catch (err) {
             console.log(err)
         }

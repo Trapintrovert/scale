@@ -26,10 +26,10 @@ export default function Home() {
     autoplayTimeout:1000,
     smartSpeed:1200,
     autoplayHoverPause:false,
-    lazyLoad:false,
-    touchDrag: false,
-    pullDrag: false,
-    mouseDrag: false,
+    lazyLoad:true,
+    // touchDrag: false,
+    // pullDrag: false,
+    // mouseDrag: false,
     responsive:{
       0:{
           items:1

@@ -3,6 +3,7 @@ import Head from 'next/head'
 import dynamic from "next/dynamic";
 import AOS from "aos";
 import CountUp from 'react-countup';
+import AllPrices from '../components/AllPrices'
 
 
 
@@ -21,11 +22,14 @@ export default function Home() {
     nav:false,
     dots:false,
     margin:30,
-    autoplay:true,
+    autoplay:false,
     autoplayTimeout:1000,
     smartSpeed:1200,
-    autoplayHoverPause:true,
-    lazyLoad:true,
+    autoplayHoverPause:false,
+    lazyLoad:false,
+    touchDrag: false,
+    pullDrag: false,
+    mouseDrag: false,
     responsive:{
       0:{
           items:1
@@ -142,46 +146,8 @@ export default function Home() {
                 <OwlCarousel  
                 { ...options}
                 >  
-                  <div className="item">
-										<div className="main-wrapper">
-								 			<div className="amount">$1,154,600</div>
-								 			<h6 className="title">Market Cap.</h6>
-								 			<div className="current-info range-down">
-								 				<i className="icon flaticon-down-caret"></i>
-								 				<span className="rate">-2.30</span>
-								 			</div>
-								 		</div>
-									</div>
-								 	<div className="item">
-										<div className="main-wrapper">
-								 			<div className="amount">2,79,108</div>
-								 			<h6 className="title">Total Users</h6>
-								 			<div className="current-info range-up">
-								 				<i className="icon flaticon-up-carret"></i>
-								 				<span className="rate">+1.42</span>
-								 			</div>
-								 		</div>
-									</div>
-								 	<div className="item">
-										<div className="main-wrapper">
-								 			<div className="amount">$7,421,210</div>
-								 			<h6 className="title">Trade Volume</h6>
-								 			<div className="current-info range-up">
-								 				<i className="icon flaticon-up-carret"></i>
-								 				<span className="rate">+2.30</span>
-								 			</div>
-								 		</div>
-									</div>
-								 	<div className="item">
-										<div className="main-wrapper">
-								 			<div className="amount">0.0044559</div>
-								 			<h6 className="title">Exchange Rate</h6>
-								 			<div className="current-info range-down">
-								 				<i className="icon flaticon-down-caret"></i>
-								 				<span className="rate">-0.63</span>
-								 			</div>
-								 		</div>
-									</div> 
+                  <AllPrices/>
+								 	
                 </OwlCarousel> 
                 </div>
                  

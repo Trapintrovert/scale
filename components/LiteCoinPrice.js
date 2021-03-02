@@ -1,34 +1,33 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const BtcPrice = () => {
+const LiteCoinPrice = () => {
 
-    const [ prices, setPrice] = useState(0)
-    const [ naira, setNaira] = useState(0.00)
+    const [ liteCoinPrices, setLiteCoinPrices] = useState(0)
+    const [ naira, setNaira] = useState(0)
     const [ baseCurrency, setBaseCurrency ] = useState('')
-    const [loading, setLoading] = useState(true)
 
     const fetchBTCPriceData = async () => {
         try {
-            const res = await axios.get("https://api.coinbase.com/v2/prices/btc-usd/spot")
+            const res = await axios.get("https://api.coinbase.com/v2/prices/ltc-usd/spot")
             let usd = res.data.data.amount
             usd = parseFloat(usd.replace(/,/g,''))
             usd = usd.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')
             // States
-            setPrice(usd)
+            setLiteCoinPrices(usd)
             setBaseCurrency(res.data.data.base)
-            console.log(usd)
+            console.log('Litecoin' + usd)
         } catch (err) {
             console.log(err)
         }
 
         try {
-            const res = await axios.get("https://api.coinbase.com/v2/prices/btc-ngn/spot")
+            const res = await axios.get("https://api.coinbase.com/v2/prices/ltc-ngn/spot")
             let ngn = res.data.data.amount
             ngn = parseFloat(ngn.replace(/,/g,''))
             ngn = ngn.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')
             setNaira(ngn)
-            console.log(ngn)
+            console.log('Litecoin ' + ngn)
         } catch (err) {
             console.log(err)
         }
@@ -40,16 +39,17 @@ const BtcPrice = () => {
         fetchBTCPriceData()
        }, 3000);
     
-    }, [setPrice, setBaseCurrency, setNaira])
+    }, [setLiteCoinPrices, setBaseCurrency, setNaira])
+
 
 
     return (
         <div className="item">
             <div className="main-wrapper">
-                <div className="amount">${''}{prices}</div>
+                <div className="amount">${''}{liteCoinPrices}</div>
                 <h6 className="title">#{''}{naira}</h6>
                 <div className="current-info range-up">
-                    <i className="icon flaticon-down-caret"></i>
+                    <i className="icon flaticon-up-carret"></i>
                     <span className="rate">{baseCurrency}</span>
                 </div>
             </div>
@@ -57,6 +57,4 @@ const BtcPrice = () => {
     )
 }
 
-
-
-export default BtcPrice
+export default LiteCoinPrice

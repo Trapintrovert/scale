@@ -1,4 +1,5 @@
 import React from 'react'
+import BCHCoinPrice from './BCHCoinPrice'
 import BtcPrice from './BtcPrice'
 import ETHCoinPrice from './ETHCoinPrice'
 import LiteCoinPrice from './LiteCoinPrice'
@@ -11,6 +12,7 @@ const AllPrices = () => {
             <BtcPrice/>
             <LiteCoinPrice/>
             <ETHCoinPrice/>
+            <BCHCoinPrice/>
         </>
     )
 }

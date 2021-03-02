@@ -22,7 +22,7 @@ export default function Home() {
     nav:false,
     dots:false,
     margin:30,
-    autoplay:false,
+    autoplay:true,
     autoplayTimeout:1000,
     smartSpeed:1200,
     autoplayHoverPause:false,

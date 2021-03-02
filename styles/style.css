@@ -490,7 +490,7 @@ body .theme-button:hover span {opacity: 1;}
   top:22px;
 }
 .stock-market-price #market-rate .main-wrapper .current-info.range-down {color: #ff4c2f;}
-.stock-market-price #market-rate .main-wrapper .current-info.range-up {color: #08dd67;}
+.stock-market-price #market-rate .main-wrapper .current-info.range-up {color: #206FC9;}
 
 .stock-market-price #market-rate .main-wrapper .icon {font-size: 8px;}
 .stock-market-price #market-rate .main-wrapper .rate {
@@ -508,7 +508,7 @@ body .theme-button:hover span {opacity: 1;}
   left:0;
 }
 .stock-market-price #market-rate .main-wrapper .range-down .rate:before {background: linear-gradient(90deg, rgb(255,116,93) 10%, rgba(255,255,255,1) 100%);}
-.stock-market-price #market-rate .main-wrapper .range-up .rate:before {background: linear-gradient(90deg, rgb(8,221,103) 10%, rgba(255,255,255,1) 100%);}
+.stock-market-price #market-rate .main-wrapper .range-up .rate:before {background: linear-gradient(90deg, rgb(255,215,64) 10%, rgba(255,255,255,1) 100%);}
 /*--------------------- Our Features --------------------*/
 .our-features-one {
   padding: 120px 0 155px;

@@ -25,10 +25,16 @@
 @media (max-width: 1199px) {
   .about-cryto.style-two .single-box {width: 100%;position: static;padding: 25px 35px;margin-bottom: 10px;}
 }
+@media (min-width: 768px) and (max-width: 800px){
+  .theme-banner-one .illustration{
+    display: none;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   #polyglotLanguageSwitcher {margin-left: 40px;}
   #mega-menu-holder ul> li> a {margin: 0 12px;}
-  .theme-banner-one .main-text-wrapper p {margin-left: 150px;padding-right: 150px;}
+
+  .theme-banner-one .main-text-wrapper p {margin-left: 10px;padding-right: 150px;}
   .theme-banner-one .main-text-wrapper {padding-top: 270px;}
   .our-features-one .single-feature.border-fix:before, .our-features-one .single-feature.border-fix:after {width: 80px;}
   .our-features-one .single-feature.border-fix:before {left: -50px;}

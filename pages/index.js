@@ -111,7 +111,7 @@ export default function Home() {
                 <div className="logo">
                   <a href="/">
                     <img
-                      src="/logo.png"
+                      src="/scale-logo150x45.png"
                       alt="Picture of the author"
                     />
                   </a>
@@ -123,13 +123,9 @@ export default function Home() {
           
           
           <div id="theme-banner" className="theme-banner-one">
-						<img src="/multi-sig.png"  alt="Icon" className="illustration"/>
-						<img src="/1.png" alt="Icon" className="icon-shape-one"/>
-						<img src="/2.png" alt="Icon" className="icon-shape-two"/>
+						<img src="/peer2peer.svg" height="518" width="667" alt="Icon" className="illustration"/>
 						<img src="/3.png" alt="Icon" className="icon-shape-three"/>
-						<div className="round-shape-one"></div>
 						<div className="round-shape-two"><img src="/4.png" alt="Icon" /></div>
-						<div className="round-shape-three"></div>
 						<div className="container">
 							<div className="main-text-wrapper">
 								<h1>Peer 2 Peer <br/>Exchange<br/>Bot.</h1>
@@ -182,7 +178,7 @@ export default function Home() {
                   <p>Scale’s primary goal is to ensure transactions are done in a safe and secure environment; hence, why we built it on a blockchain platform.</p>
                 </div> 
               </div> 
-              <div className="col-lg-6 img-box"><div><img src="/encrypted.png" alt=""/></div></div>
+              <div className="col-lg-6 img-box"><div><img src="/security.svg" height="350" width="400" alt="Safety"/></div></div>
             </div>
 
             <div className="row single-block">
@@ -193,7 +189,7 @@ export default function Home() {
                   <p>To use Scale means you do not have to be familiar with strangers before earning their trusts. It is what Scale is built upon. Trust is out of your worries as you go about your crypto business.</p>
                 </div> 
               </div> 
-              <div className="col-lg-6 order-lg-first img-box"><div><img src="/trust.png" alt=""/></div></div>
+              <div className="col-lg-6 order-lg-first img-box"><div><img src="/trust.svg" height="350" width="400" alt="Safety"/></div></div>
             </div>
 
             <div className="row single-block">
@@ -204,7 +200,7 @@ export default function Home() {
                   <p>We are dedicated to helping you scale as a crypto exchanger; this is why we have built a system that speeds up transaction processes with our seamless bot interface.</p>
                 </div> 
               </div> 
-              <div className="col-lg-6 img-box"><div><img src="/speed.png" alt=""/></div></div>
+              <div className="col-lg-6 img-box"><div><img src="/speed.svg" height="350" width="400" alt="Safety"/></div></div>
             </div> 
           </div> 
         </div> 
@@ -363,8 +359,8 @@ export default function Home() {
               <div className="bottom-footer clearfix">
                 <p className="copyright">&copy; 2021 <a href="#">Scale</a> All Right Reserved</p>
                 <ul>
-                  {/* <li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                  <li><a href="https://twitter.com/SurtiiHQ"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.facebook.com/SURTiiTech"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="https://twitter.com/p2pByScale"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
                   <li><a href="https://www.instagram.com/p2pbyscale/"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
                 </ul>
               </div> 

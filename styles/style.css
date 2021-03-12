@@ -4,12 +4,8 @@
 * Importing necessary  Styles.
 **/
 /*--------- Fonts ----------*/
-@import url('../fonts/custom-font/pn-reg/stylesheet.css');
-@import url('../fonts/custom-font/bg-b/stylesheet.css');
-@import url('../fonts/custom-font/bg-md/stylesheet.css');
-@import url('../fonts/custom-font/bg-l/stylesheet.css');
-@import url('../fonts/custom-font/bg-reg/stylesheet.css');
-@import url('../fonts/custom-font/lovelo/stylesheet.css');
+@import url('../fonts/font/stylesheet.css');
+
 
 /*----bootstrap css ----- */
 /* @import url('../vendor/bootstrap/css/bootstrap.min.css'); */
@@ -103,11 +99,11 @@
        url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
  }
  body {
-  /*   font-family: 'brandon_grotesquebold';
-  font-family: 'brandon_grotesquemedium';
+  /*   font-family: 'Graphik';
+  font-family: 'Graphik';
   font-family: 'brandon_grotesque_regularRg';
   font-family: 'loveloline_light';    */
-  font-family: 'proxima_novaregular' !important;
+  font-family: 'Graphik' !important;
   font-weight: normal !important;
   color:rgba(48,61,83,0.7) !important;
   font-size: 18px !important;
@@ -116,12 +112,12 @@
 .main-page-wrapper {}
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
  h1,h2,h3,h4,h5,h6 {color:#283249;}
- h1 {font-family: 'brandon_grotesquebold' !important; font-size: 70px !important; line-height: 75px !important;}
- h2 {font-family: 'brandon_grotesquemedium' !important; font-size: 50px !important;}
- h3 {font-size: 28px; font-weight: normal; font-family: 'proxima_novaregular';}
- h4 {font-size: 24px; font-family: 'brandon_grotesquemedium';}
+ h1 {font-family: 'Graphik' !important; font-size: 70px !important; line-height: 75px !important;}
+ h2 {font-family: 'Graphik' !important; font-size: 50px !important;}
+ h3 {font-size: 28px; font-weight: normal; font-family: 'pGraphik';}
+ h4 {font-size: 24px; font-family: 'Graphik';}
  h5 {font-size: 22px; font-weight: 500;}
- h6 {font-size: 20px; font-family: 'brandon_grotesque_regularRg'; }
+ h6 {font-size: 20px; font-family: 'Graphik'; }
  p {line-height: 32px;}
  ul {list-style-type: none;}
  a {text-decoration: none; display: inline-block;}
@@ -149,7 +145,7 @@
  }
 /*--------------- Theme Title ------------*/
 .theme-title h2 {
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   font-size: 55px;
   line-height: 65px;
   font-weight: normal;
@@ -236,7 +232,7 @@ body .theme-button:hover span {opacity: 1;}
 .theme-main-menu #mega-menu-holder,.theme-main-menu .right-widget {float: right;padding: 0;}
 .theme-main-menu .right-widget {position: relative;z-index: 9;}
 #mega-menu-holder ul> li> a {
-  font-family: 'brandon_grotesque_regularRg';
+  font-family: 'Graphik';
   position: relative;
   padding: 7px 0 0;
   display: block;
@@ -442,7 +438,7 @@ body .theme-button:hover span {opacity: 1;}
   padding: 20px 0 50px;
 }
 .theme-banner-two .main-text-wrapper .button-group li a {
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   line-height: 48px;
   border: 1px solid #fff;
   border-radius: 3px;
@@ -478,7 +474,7 @@ body .theme-button:hover span {opacity: 1;}
   text-align: left;
 }
 .stock-market-price #market-rate .main-wrapper .amount {
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   font-size: 23px;
   color: #1a1a1a;
   padding-bottom: 5px;
@@ -676,7 +672,7 @@ body .theme-button:hover span {opacity: 1;}
   padding: 6px 0 25px;
 }
 .apps-overview .inner-wrapper .text h6 {
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   font-size: 24px;
   color: #fff;
   padding-bottom: 20px;
@@ -684,7 +680,7 @@ body .theme-button:hover span {opacity: 1;}
 .apps-overview .inner-wrapper .text p {color: #fff;padding-bottom: 40px;}
 .apps-overview .inner-wrapper .button-group li {display: inline-block;margin-right: 15px;}
 .apps-overview .inner-wrapper .button-group li a {
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   width: 170px;
   line-height: 55px;
   text-align: center;
@@ -800,7 +796,7 @@ body .theme-button:hover span {opacity: 1;}
   bottom: 61px;
 }
 .our-work-progress .main-wrapper .progress-slider-wrapper .inner-block h3 {
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   line-height: 30px;
   color: #1b1b1b;
   padding: 27px 0 25px;
@@ -930,7 +926,7 @@ body .theme-button:hover span {opacity: 1;}
   z-index: 1;
 }
 .contact-us-one form label {
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   color: #3a3c4e;
   display: block;
   margin-bottom: 10px;
@@ -947,7 +943,7 @@ body .theme-button:hover span {opacity: 1;}
 }
 .contact-us-one form input:focus {box-shadow: 0px 3px 16px 0px rgba(63, 53, 53, 0.07);}
 .contact-us-one form button {
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   width: 220px;
   height: 55px;
   border-radius: 4px;
@@ -1074,7 +1070,7 @@ body .theme-button:hover span {opacity: 1;}
   padding-bottom: 32px;
 }
 .about-cryto .know-more {
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   font-size: 20px;
   color: #fff;
 }
@@ -1240,7 +1236,7 @@ body .theme-button:hover span {opacity: 1;}
   text-align: right;
 }
 .token-sale-section .token-sale-text .title-wrapper .stage {
-  font-family: 'brandon_grotesquebold';
+  font-family: 'Graphik';
   width: 100px;
   line-height: 30px;
   display: inline-block;
@@ -1253,7 +1249,7 @@ body .theme-button:hover span {opacity: 1;}
   background: #efd421;
 }
 .token-sale-section .token-sale-text .title-wrapper .title {
-  font-family: 'brandon_grotesquebold';
+  font-family: 'Graphik';
   font-size: 72px;
   color: #fff;
   line-height: 70px;
@@ -1270,7 +1266,7 @@ body .theme-button:hover span {opacity: 1;}
   right: -175px;
 }
 .token-sale-section .token-sale-text .meta-data-wrapper .date-range {
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   font-size: 22px;
   color: #fff;
   padding-bottom: 38px;
@@ -1281,7 +1277,7 @@ body .theme-button:hover span {opacity: 1;}
 }
 .token-sale-section .token-sale-text .meta-data-wrapper .table tr td:first-child {
   width: 30%;
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   font-size: 20px;
   color: #efd421;
 }
@@ -1308,7 +1304,7 @@ body .theme-button:hover span {opacity: 1;}
   margin-bottom: 38px;
 }
 .token-sale-section .token-sale-allocation .allocation-box ul li h3 {
-  font-family: 'brandon_grotesquebold';
+  font-family: 'Graphik';
   font-size: 35px;
   margin-bottom: -3px;
 }
@@ -1353,7 +1349,7 @@ body .theme-button:hover span {opacity: 1;}
 }
 .roadmap.roadmap--orientation-auto .roadmap__events {padding: 108px 0;}
 .our-road-map .time-line-wrapper #timeline-frame .event__date {
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   font-size: 22px;
   color: #fff;
   font-weight: normal;
@@ -1423,7 +1419,7 @@ body .theme-button:hover span {opacity: 1;}
   border:none;
 }
 .accordion-one .panel-heading h6 a {
-  font-family: 'proxima_novaregular';
+  font-family: 'Graphik';
   font-weight: 700;
   border:none;
   font-size: 20px;
@@ -1513,7 +1509,7 @@ body .theme-button:hover span {opacity: 1;}
 .contact-section-dark form :-ms-input-placeholder {  color: rgba(255,255,255,0.5);}
 .contact-section-dark form ::-ms-input-placeholder { color: rgba(255,255,255,0.5);}
 .contact-section-dark form button {
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   width: 220px;
   height: 55px;
   border-radius: 4px;
@@ -1586,7 +1582,7 @@ body .theme-button:hover span {opacity: 1;}
 }
 .our-features-four .single-feature .icon-box img {margin: 0 auto;}
 .our-features-four .single-feature h3 {
-  font-family: 'brandon_grotesquebold';
+  font-family: 'Graphik';
   padding: 45px 0 15px;
 }
 .our-features-four .single-feature a {font-size: 35px;color: #c0c0c0;margin-top: 15px;}
@@ -1640,7 +1636,7 @@ body .theme-button:hover span {opacity: 1;}
   padding-top: 15px;
 }
 .our-feature-five .text .learn-more {
-  font-family: 'brandon_grotesquemedium';
+  font-family: 'Graphik';
   font-size: 22px;
   color: #3c3c3c;
 }
@@ -1692,7 +1688,7 @@ body .theme-button:hover span {opacity: 1;}
   z-index: 1;
 }
 .theme-inner-banner h2 {
-  font-family: 'proxima_novaregular';
+  font-family: 'Graphik';
   font-size: 50px;
 }
 .theme-inner-banner ul {
@@ -1724,7 +1720,7 @@ body .theme-button:hover span {opacity: 1;}
   text-transform: capitalize;
 }
 .blog-grid-style .single-blog-post .title a {
-  font-family: 'proxima_novaregular';
+  font-family: 'Graphik';
   font-size: 32px;
   margin: 20px 0 30px 0;
   color: #283249;
@@ -1743,7 +1739,7 @@ body .theme-button:hover span {opacity: 1;}
 /*------------------------- Theme Sidebar -----------------------*/
 .theme-main-sidebar .sidebar-box {padding: 0 0 70px;}
 .theme-main-sidebar .sidebar-title {
-  font-family: 'proxima_novaregular';
+  font-family: 'Graphik';
   font-weight: 700;
   position: relative;
   font-size: 22px;
@@ -1757,7 +1753,7 @@ body .theme-button:hover span {opacity: 1;}
   border-bottom: 1px solid #f4f4f4;
 }
 .theme-main-sidebar .sidebar-trending-post .single-trending-post .post h6 a {
-  font-family: 'proxima_novaregular';
+  font-family: 'Graphik';
   font-weight: 700;
   line-height: 28px;
   font-size: 18px;

@@ -54,7 +54,7 @@
 @media (max-width: 991px) {
   .theme-main-menu #mega-menu-holder.dark-bg .navbar-nav {background:#1d1d21; }
   #mega-menu-holder.dark-bg ul> li> a {border-bottom: 1px solid rgba(255,255,255,0.08);}
-  .theme-main-menu {padding: 30px 0 20px; background: transparent; box-shadow: none;}
+  .theme-main-menu {padding: 30px 0 48px; background: #fff; box-shadow: none;}
   .theme-main-menu.full-width {padding: 30px 20px 20px;}
   .theme-main-menu.full-width #mega-menu-holder {padding-left: 0;}
   .theme-main-menu.full-width .navbar>div {width: 100%;}

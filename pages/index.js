@@ -128,8 +128,8 @@ export default function Home() {
 						<div className="round-shape-two"><img src="/4.png" alt="Icon" /></div>
 						<div className="container">
 							<div className="main-text-wrapper">
-								<h1>Peer 2 Peer <br/>Exchange<br/>Bot.</h1>
-								<p className="col-md-6 col-sm-12">An Escrow Bot built on blockchain to provide secure infrastructure for P2P crypto exchange on Telegram</p>
+								<h1>P2P <br/>Exchange<br/>Bot.</h1>
+								<p className="col-md-6 col-sm-12">An escrow solution built on the blockchain infrastructure to provide a secure and seamless transacting experience.</p>
 								<ul className="button-group clearfix">
 									<li><a href="#">Trade Now</a></li>
 								</ul>
@@ -178,7 +178,7 @@ export default function Home() {
                   <p>Scale’s primary goal is to ensure transactions are done in a safe and secure environment; hence, why we built it on a blockchain platform.</p>
                 </div> 
               </div> 
-              <div className="col-lg-6 img-box"><div><img src="/security.svg" height="350" width="400" alt="Safety"/></div></div>
+              <div className="col-lg-6 img-box"><div><img src="/security.svg" height="300" width="400" alt="Safety"/></div></div>
             </div>
 
             <div className="row single-block">
@@ -209,8 +209,8 @@ export default function Home() {
           <div className="overlay-bg" style={{backgroundImage: `url('/bg2.png')`}}>
             <div className="container">
               <div className="inner-wrapper">
-                <img src="/s8.png" alt="" className="s8-mockup" data-aos="fade-down" data-aos-duration="2500"/>
-                <img src="/x.png" alt="" className="x-mockup" data-aos="fade-up" data-aos-duration="2500"/>
+                <img src="/buyer-convo.png" width="358" height="700" alt="Seller's Conversation" className="s8-mockup" data-aos="fade-down" data-aos-duration="2500"/>
+                <img src="/seller-convo.png" width="358" height="700" alt="Buyer's Conversation" className="x-mockup" data-aos="fade-up" data-aos-duration="2500"/>
                 <div className="row">
                   <div className="col-lg-5 offset-lg-7">
                     <div className="text">

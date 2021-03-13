@@ -7,23 +7,11 @@
 @import url('../fonts/font/stylesheet.css');
 
 
-/*----bootstrap css ----- */
-/* @import url('../vendor/bootstrap/css/bootstrap.min.css'); */
-/*----font awesome -------*/
+
 @import url('../fonts/font-awesome/css/font-awesome.min.css');
-/*----owl-carousel css----*/
-/* @import url('../vendor/owl-carousel/owl.carousel.css');
-@import url('../vendor/owl-carousel/owl.theme.css'); */
-/*-------- AOS css ------*/
 @import url('../styles/aos.css');
 /*--------- flat-icon ---------*/
 @import url('../fonts/icon/font/flaticon.css');
-/*----Language Switcher---*/
-/* @import url('../vendor/language-switcher/polyglot-language-switcher.css'); */
-/*----------- Fancybox css -------*/
-/* @import url('../vendor/fancybox/dist/jquery.fancybox.min.css'); */
-/*---------------- Roadmap CSS -------------*/
-/* @import url('../vendor//roadmap/jquery.roadmap.min.css'); */
 /*---------------- Custom Animation -------------*/
 @import url('../styles/custom-animation.css');
 /*** 

@@ -743,13 +743,13 @@ body .theme-button:hover span {opacity: 1;}
   text-align: center;
 }
 .theme-counter .bg-image .counter-wrapper .number {
-  font-family: 'brandon_grotesquelight';
+  font-family: 'Graphik';
   font-size: 36px;
   color: #1b1b1b;
 }
 .theme-counter .bg-image .counter-wrapper .number .timer {font-size: 65px;}
 .theme-counter .bg-image .counter-wrapper p {
-  font-family: 'brandon_grotesque_regularRg';
+  font-family: 'Graphik';
   font-size: 24px;
   color: #a9a9a9;
 }
